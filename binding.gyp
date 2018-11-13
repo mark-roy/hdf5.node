@@ -14,7 +14,7 @@
             ['OS=="linux"', {
                 'cflags!': [ '-fno-exceptions' ],
                 'cflags_cc!': [ '-fno-exceptions' ],
-                'cflags': ['-fPIC', "-<(link_type)", "-O4", "-std=c++14", "-fexceptions", "-Werror"],
+                'cflags': ['-fPIC', "-<(link_type)", "-O4", "-fexceptions", "-Werror"],
                 'include_dirs': [
                     '<(hdf5_home_linux)/include',
                     "/usr/include/hdf5/serial"
@@ -134,7 +134,7 @@
             ['OS=="linux"', {
                 'cflags!': [ '-fno-exceptions' ],
                 'cflags_cc!': [ '-fno-exceptions' ],
-                'cflags': ['-fPIC', "-<(link_type)", "-O4", "-std=c++14", "-fexceptions", "-Werror"],
+                'cflags': ['-fPIC', "-<(link_type)", "-O4", "-fexceptions", "-Werror"],
                 'include_dirs': [
                     '<(hdf5_home_linux)/include',
                     "/usr/include/hdf5/serial"
@@ -240,7 +240,7 @@
             ['OS=="linux"', {
                 'cflags!': [ '-fno-exceptions' ],
                 'cflags_cc!': [ '-fno-exceptions' ],
-                'cflags': ["-D<(longlong_type)", "-fPIC", "-<(link_type)", "-O4", "-std=c++14", "-fexceptions", "-Werror"],
+                'cflags': ["-D<(longlong_type)", "-fPIC", "-<(link_type)", "-O4", "-fexceptions", "-Werror"],
                 'include_dirs': [
                     '<(hdf5_home_linux)/include',
                     "/usr/include/hdf5/serial"
@@ -338,7 +338,7 @@
             ['OS=="linux"', {
                 'cflags!': [ '-fno-exceptions' ],
                 'cflags_cc!': [ '-fno-exceptions' ],
-                'cflags': ['-fPIC', "-<(link_type)", "-O4", "-std=c++14", "-fexceptions", "-Werror"],
+                'cflags': ['-fPIC', "-<(link_type)", "-O4", "-fexceptions", "-Werror"],
                 'include_dirs': [
                     '<(hdf5_home_linux)/include',
                     "/usr/include/hdf5/serial"
@@ -442,7 +442,7 @@
             ['OS=="linux"', {
                 'cflags!': [ '-fno-exceptions' ],
                 'cflags_cc!': [ '-fno-exceptions' ],
-                'cflags': ['-fPIC', "-<(link_type)", "-O4", "-std=c++14", "-fexceptions", "-Werror"],
+                'cflags': ['-fPIC', "-<(link_type)", "-O4", "-fexceptions", "-Werror"],
                 'include_dirs': [
                     '<(hdf5_home_linux)/include',
                     "/usr/include/hdf5/serial"
@@ -539,7 +539,7 @@
             ['OS=="linux"', {
                 'cflags!': [ '-fno-exceptions' ],
                 'cflags_cc!': [ '-fno-exceptions' ],
-                'cflags': ['-fPIC', "-<(link_type)", "-O4", "-std=c++14", "-fexceptions", "-Werror"],
+                'cflags': ['-fPIC', "-<(link_type)", "-O4", "-fexceptions", "-Werror"],
                 'include_dirs': [
                     '<(hdf5_home_linux)/include',
                     "/usr/include/hdf5/serial"
